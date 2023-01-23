@@ -1,0 +1,88 @@
+#container {
+    background: linear-gradient(rgba(0, 0, 0, 0.367), rgb(0, 0, 0)), url(../images/background.jpg);
+    height: 700px;
+    padding: 25px;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(52, 52, 52);
+}
+
+#logo {
+    width: 160px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    padding: 7px 16px;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid white;
+}
+
+option {
+    background-color: gray;
+}
+
+#btn-enter {
+    padding: 7px 17px;
+    font-size: 14px;
+    background-color: #e50914;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#main-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+h2, h3 {
+    font-weight: lighter;
+}
+
+.section-title {
+    font-size: 58px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+#email {
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+}
+
+#btn-start {
+    width: 200px;
+    font-size: 24px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+}
+
+section {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
